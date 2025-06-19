@@ -1,0 +1,26 @@
+to do for now 
+------------
+- write function for add_tags
+- write function for formatting add_tag message
+- get_unique_tags rename with fetch_unique_tags
+
+
+pending to do 
+--------------------
+- change contract for sort_tags ( add seperator as an argument)
+- change function and variable name ( filter_tasks_by_tags )
+- pass actual as a string to assert
+- check file existance in main
+- update task manager usage and use an array ( in help ) 
+- in report show function name as it is ( with underscore )
+
+
+new features
+--------------------
+- subcommand tag
+- subcommand untag
+
+
+problems
+------------
+- column is not managing empty data ( ex. 1|pending||birthday )

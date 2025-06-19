@@ -1,0 +1,6 @@
+task add <description> for adding a task
+task list for listing all tasks
+task done <id> for marking a task as done
+task delete <id> for deleting a task
+task longlist for listing all tasks with status
+task help for showing this help
