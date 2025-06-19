@@ -1,4 +1,4 @@
-# ✅ Bash Task Manager
+# ✅ Task Manager
 
 A simple command-line task manager written in **Bash**. It allows you to add, view, complete, and delete tasks easily from the terminal.
 
@@ -19,20 +19,21 @@ A simple command-line task manager written in **Bash**. It allows you to add, vi
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/bash-task-manager.git
-cd bash-task-manager
+git https://github.com/subhashydv/Task-Manager.git
+cd Task-Manager
 ```
 
-2. Make Script Executable: 
+2. Set task alias: 
 
 ```bash
-chmod +x task
+alias task="./start_task_manager.sh"
 ```
 
-3. Add it to your PATH:
+3. Set task alias globally:
 
 ```bash
-sudo mv task /usr/local/bin/
+echo 'alias task="./start_task_manager.sh"' >> ~/.bashrc
+echo 'alias task="./start_task_manager.sh"' >> ~/.zshrc
 ```
 
 ## 🚀 Usage
