@@ -353,7 +353,7 @@ function add_tags() {
 }
 
 function display_help() {
-	cat ~/projects/task_manager/database/task_manager_usage.txt
+	cat "$PWD/database/task_manager_usage.txt"
 }
 
 
