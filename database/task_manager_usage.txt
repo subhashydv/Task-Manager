@@ -1,3 +1,6 @@
+ ## USAGE ##
+ ---------------
+
 task add <description> for adding a task
 task list for listing all tasks
 task done <id> for marking a task as done
